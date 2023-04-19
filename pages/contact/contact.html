@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <div>
+        <h3>My Contact Details</h3>
+        <p> Address: Ikeja Computer Village <br> <br> 07086535431 <br> <br>Email: habeox@gmail.com</p>
+    </div>
+    <hr>
+    <br>
+    <div>
+        <form action="mailto: habeox@gmail.com">
+            <fieldset>
+                <legend>User Registeration Form</legend>
+                <label>Name:</label> <input type="text" placeholder="enter your full name" required>
+                <hr>
+                <label>Email:</label> <input type="email" placeholder="enter mail" required>
+                <hr>
+                <label>Phone Number:</label> <input type="number" minlength="11" placeholder="enter mobile number" required>
+                <hr>
+                <label>Gender<label> <br>
+        <label>Male</label><input type="radio" name="gender"> <br>
+                <label>Female</label><input type="radio" name="gender"> <br>
+                <label>Rather not say</label><input type="radio" name="gender"><br>
+                <hr>
+                <label>Do you want to sign up for the mail?</label><br>
+                <input type="checkbox"> <label>Yes</label><br>
+                <label>Favorite Car:</label><br>
+                <select>
+                    <option> Toyota </option>
+                    <option value="select">Lexus </option>
+                    <option>Hyunda </option>
+                </select> <br>
+                <hr>
+                <label> Tell us about Yourself</label><br>
+                <textarea maxlength="400" style="height: 150px; width: 200px;" placeholder="please leave a message"></textarea><br>
+                <button type="submit" name="submit">Submit</button>
+                <button type="reset" name="reset">Reset</button>
+            </fieldset>
+        </form>
+        <a href="/index.html">Go Back To Home</a>
+
+    </div>
+</body>
+
+</html>
